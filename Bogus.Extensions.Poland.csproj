@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Marcin Sulecki</Authors>
+    <Company>Sulmar</Company>
+    <Description>API Extension Methods for Bogus</Description>
+    <PackageProjectUrl>https://github.com/sulmar/Bogus.Extensions.Poland</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/sulmar/Bogus.Extensions.Poland</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>bogus, fake, faker</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>

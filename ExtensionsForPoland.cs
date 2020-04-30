@@ -6,16 +6,20 @@ namespace Bogus.Extensions.Poland
 {
     public static class ExtensionsForPoland
     {
-        public static string Pesel(this Person person)
+        /// <summary>
+        /// Personal Identity Number
+        /// </summary>
+        /// <param name="p">Person</param>
+        /// <returns></returns>
+        public static string Pesel(this Person p)
         {
             var peselStringBuilder = new StringBuilder();
 
             peselStringBuilder
-                .AppendPeselDate(person.DateOfBirth)
+                .AppendPeselDate(p.DateOfBirth)
                 .AppendRandomNumbers(3)
-                .AppendGender(person.Gender)
+                .AppendGender(p.Gender)
                 .AppendChecksum();
-
           
             return peselStringBuilder.ToString();
         }
