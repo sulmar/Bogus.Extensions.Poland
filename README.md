@@ -5,6 +5,12 @@
 - using Bogus.Extensions.Poland;
   - Bogus.Person.Pesel() - Polish Personal Identity Number
   
+## Description
+I'm a big fun of Bogus Faker library
+https://github.com/bchavez/Bogus
+
+ That's why I decided to write an extension for Bogus.
+  
   
 ## Get Started
 Extensions can be installed using the Nuget package manager or the dotnet CLI.
@@ -24,7 +30,6 @@ dotnet add package Sulmar.Bogus.Extensions.Poland
                 .RuleFor(p => p.FirstName, f => f.Person.FirstName)
                 .RuleFor(p=>p.BirthDate, f=>f.Person.DateOfBirth)
                 .RuleFor(p=>p.Pesel, f=>f.Person.Pesel());
-
 
   var customer = faker.Generate();
 ~~~ 
