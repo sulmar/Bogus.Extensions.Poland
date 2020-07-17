@@ -29,8 +29,8 @@ dotnet add package Sulmar.Bogus.Extensions.Poland
 ~~~ csharp
  var faker = new Faker<Customer>()
                 .RuleFor(p => p.FirstName, f => f.Person.FirstName)
-                .RuleFor(p=>p.BirthDate, f=>f.Person.DateOfBirth)
-                .RuleFor(p=>p.Pesel, f=>f.Person.Pesel());
+                .RuleFor(p => p.BirthDate, f=> f.Person.DateOfBirth)
+                .RuleFor(p => p.Pesel, f=> f.Person.Pesel());
 
   var customer = faker.Generate();
 ~~~ 
