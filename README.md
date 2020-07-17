@@ -3,8 +3,9 @@
 ### API Extension Methods
 
 - using Bogus.Extensions.Poland;
-  - Bogus.Person.Pesel() - Polish Personal Identity Number
-  
+  - Bogus.Person.Pesel() - Polish Personal Identity Number (gender and date of birth are taken from Person)
+
+
 ## Description
 I'm a big fun of Bogus Faker library
 https://github.com/bchavez/Bogus
@@ -33,3 +34,4 @@ dotnet add package Sulmar.Bogus.Extensions.Poland
 
   var customer = faker.Generate();
 ~~~ 
+
