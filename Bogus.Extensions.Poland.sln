@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bogus.Extensions.Poland", "Bogus.Extensions.Poland.csproj", "{60A8A2D9-7230-4338-B55C-EEDEBB23F75F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bogus.Extensions.Poland.UnitTests", "..\Bogus.Extensions.Poland.UnitTests\Bogus.Extensions.Poland.UnitTests.csproj", "{C9920BF8-330A-4B52-8CD1-359C36AD21D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bogus.Extensions.Poland", "Bogus.Extensions.Poland.csproj", "{60A8A2D9-7230-4338-B55C-EEDEBB23F75F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		{60A8A2D9-7230-4338-B55C-EEDEBB23F75F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60A8A2D9-7230-4338-B55C-EEDEBB23F75F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60A8A2D9-7230-4338-B55C-EEDEBB23F75F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C9920BF8-330A-4B52-8CD1-359C36AD21D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C9920BF8-330A-4B52-8CD1-359C36AD21D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C9920BF8-330A-4B52-8CD1-359C36AD21D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C9920BF8-330A-4B52-8CD1-359C36AD21D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
