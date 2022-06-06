@@ -1,25 +1,9 @@
 ﻿using Bogus.DataSets;
 using System;
 using System.Linq;
-using static Bogus.Extensions.Poland.CompanyExtensions;
-
 
 namespace Bogus.Extensions.Poland
 {
-    public class RegonWeightsFactory
-    {
-        public static CheckSumCalculator Create(RegonType regonType)
-        {
-            switch(regonType)
-            {
-                case RegonType.Regon9: return new Regon9CheckSumCalculator();
-                case RegonType.Regon14: return new Regon14CheckSumCalculator();
-
-                default: throw new NotSupportedException();
-            }
-        }
-    }
-
     public static class CompanyExtensions
     {
         public static string Nip(this Company company)
@@ -64,6 +48,20 @@ namespace Bogus.Extensions.Poland
         {
             Regon9 = 9,
             Regon14 = 14
+        }
+
+        public class RegonWeightsFactory
+        {
+            public static CheckSumCalculator Create(RegonType regonType)
+            {
+                switch (regonType)
+                {
+                    case RegonType.Regon9: return new Regon9CheckSumCalculator();
+                    case RegonType.Regon14: return new Regon14CheckSumCalculator();
+
+                    default: throw new NotSupportedException();
+                }
+            }
         }
     }
 
