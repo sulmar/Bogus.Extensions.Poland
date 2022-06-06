@@ -5,7 +5,7 @@ using System.Text;
 namespace Bogus.Extensions.Poland
 {
 
-    public static class PersonExtensionsForPoland
+    public static class PersonExtensions
     {
         /// <summary>
         /// Personal Identity Number
